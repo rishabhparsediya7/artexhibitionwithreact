@@ -1,0 +1,98 @@
+.search-event {
+  margin: 20px 50px;
+}
+
+.fa-search {
+  position: absolute;
+  top: 116px;
+  left: 64px;
+}
+
+input[type="text"] {
+  padding: 0px 40px;
+  width: 50%;
+  border: none;
+  border-bottom: 2px solid #b9aaaa;
+  border-radius: 0px;
+}
+
+/* -----------------         Exhibitions part ----------------------------- */
+
+.exhibition-slider {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0px 10px;
+  height: 50%;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+
+.event-slider {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0px 10px;
+  height: 50%;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+
+.events-and-exhibitions {
+  padding: 10px 40px;
+  position: sticky;
+}
+
+.exhibitions img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.event-image img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.exh-row {
+  box-shadow: 0px 8px 10px -10px gray;
+  margin: 10px 0px;
+  transition: transform 2s ease;
+}
+
+.exh-row:hover {
+  box-shadow: 0px 8px 10px -10px gray;
+  margin: 10px 0px;
+  transform: scale(1.03, 1.03);
+}
+
+.events-and-exhibitions ::-webkit-scrollbar-track {
+  background: black;
+}
+
+.exhibition-heading {
+  margin: 10px 0px;
+}
+
+.exhibition-specifics {
+  margin: 10px 0px;
+}
+
+.exhibitions-details {
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  margin: 10px 0px;
+}
+
+.event-desc {
+  padding: 0px 10px;
+  padding-bottom: 0px;
+  color: gray;
+  padding-bottom: 10px;
+}
+
+.event-name {
+  padding: 0px 10px;
+  color: gray;
+}

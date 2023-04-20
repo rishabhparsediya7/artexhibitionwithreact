@@ -1,0 +1,24 @@
+.navbar {
+  background: transparent;
+  padding: 1rem 4rem;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.navbar img {
+  max-width: 50%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item a {
+  padding: 1rem 1rem;
+  color: gray;
+}
+
+.fa {
+ color: gray;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item a:hover {
+ color: gray;
+  text-decoration: none;
+}
